@@ -1,0 +1,41 @@
+{
+  "name": "Yandex.Praktikum-Mesto-Deploy",
+  "version": "1.0.0",
+  "description": "Backend course project for creating your own server for the 'Mesto' project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MankoIvan/Yandex.Praktikum-Mesto-Deploy.git"
+  },
+  "keywords": [],
+  "author": "MankoIvan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MankoIvan/Yandex.Praktikum-Mesto-Deploy/issues"
+  },
+  "homepage": "https://github.com/MankoIvan/Yandex.Praktikum-Mesto-Deploy#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "celebrate": "^10.1.0",
+    "express": "^4.17.1",
+    "express-winston": "^4.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.7",
+    "validator": "^12.0.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.5.0",
+    "@typescript-eslint/parser": "^2.5.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.16.0",
+    "nodemon": "^1.19.4"
+  }
+}

@@ -56,8 +56,8 @@ app.use(errorLogger);
 
 app.use(errors());
 
-app.use((err, req, res) => {
-  // если у ошибки нет статуса, выставляем 500
+// eslint-disable-next-line no-unused-vars
+app.use((err, req, res, next) => {
   const { statusCode = 500, message } = err;
 
   res
